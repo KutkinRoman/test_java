@@ -54,7 +54,9 @@ public class BoxDemoApp {
 
         BoxFruit<Apple> appleBoxFruit = new BoxFruit<>();
         appleBoxFruit.add(new Apple());
-        appleBoxFruit.add(new Apple());
+        
+		appleBoxFruit.add(new Apple());
+		
         appleBoxFruit.add(new Apple());
 
         appleBoxFruit1.get(0).getWeight();
